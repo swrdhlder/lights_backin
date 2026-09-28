@@ -186,33 +186,9 @@ def main():
     tablero = [[0 for _ in range(dim)] for _ in range(dim) ]
     for i in range(dim):
         tablero[i] = list(map(int, input().strip().split()))
-    # dim = 6
-    # tablero[0] = [0, 0, 0, 0, 0, 1]
-    # tablero[1] = [1, 0, 1, 0, 0, 1]
-    # tablero[2] = [0, 1, 1, 1, 1, 0]
-    # tablero[3] = [1, 1, 1, 1, 0, 1]
-    # tablero[4] = [1, 0, 1, 1, 1, 0]
-    # tablero[5] = [1, 1, 0, 0, 1, 0]
-
-
 
     print_tablero(tablero)
     tryout_sols()
 
-    # nuevo = press(3, 4, dim)
-    
-    # turn_90_degrees()
-
-
-    # follow_the_lights()
-    # print_tablero(tablero)
-    # try_one()
-    # try_two()
-    # try_three()
-    # try_four()
-    # try_five()
-
-
-    # print(check(nuevo))
 
 main()
